@@ -1,0 +1,12 @@
+name: python 3.6
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
